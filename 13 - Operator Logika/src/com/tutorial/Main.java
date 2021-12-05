@@ -33,7 +33,14 @@ public class Main {
         System.out.println(a + " OR " + b + " = " + hasil);
 
         // NOT
+        System.out.println("\n===== NOT =====");
+        a = true;
+        hasil = !a;
+        System.out.println("NOT true = " + hasil);
 
+        a = false;
+        hasil = !a;
+        System.out.println("NOT false = " + hasil);
 
         // AND
         System.out.println("\n===== AND =====");
